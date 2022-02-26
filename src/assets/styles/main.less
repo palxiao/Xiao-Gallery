@@ -1,0 +1,65 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+}
+
+img{
+    content: normal !important;
+}
+
+* {
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+/*根据屏幕分辨率自适应大小*/
+@media (max-width:1921px){
+    html{
+        font-size: 62.5% !important;/*1rem=10px*/
+    }
+}
+@media (max-width:1601px){
+    html{
+        font-size: 52.08333333% !important;
+    }
+}
+@media (max-width:1367px){
+    html{
+        font-size: 44.46614583% !important;
+    }
+}
+@media (max-width:1281px){
+    html{
+        font-size: 41.66666666% !important;/**/
+    }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	//取消浏览器记住密码的样式
+	transition: background-color 5000s ease-in-out 0s;
+}
+
+.fs-30 {
+	font-size: 30px;
+}
+.fs-12 {
+	font-size: 12px;
+}
+.fs-14 {
+	font-size: 14px;
+}
+.fs-16 {
+	font-size: 16px;
+}
+.fs-18 {
+	font-size: 18px;
+}
